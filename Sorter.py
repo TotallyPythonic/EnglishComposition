@@ -255,7 +255,7 @@ def execute(amount):
         greek_rel.append(count_greek / tot)
         other_rel.append(count_other / tot)
 
-        print("processed: ",(words.index(word) / len(words))*100)
+        print("processed: ",(words1.index(word) / len(words))*100)
         
     print("\nAbsolute frequency of languages of origin:")
     print("Germanic: %d, Latin: %d, French: %d, Old English: %d, Greek: %d, Other: %d \n" % (count_germanic, count_latin, count_french, count_old_english, count_greek, count_other))
